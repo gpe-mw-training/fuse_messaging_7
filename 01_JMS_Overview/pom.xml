@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.redhat.gpe</groupId>
     <version>1.0</version>
-    <artifactId>jboss-as-helloworld-mdb</artifactId>
+    <artifactId>jms-lab</artifactId>
     <packaging>war</packaging>
 
     <dependencies>
-        <!-- Import the Servlet API, we use provided scope as the API is 
+        <!-- Import the Servlet API, we use provided scope as the API is
             included in JBoss EAP 6/JBoss AS 7 -->
         <dependency>
             <groupId>org.jboss.spec.javax.servlet</groupId>
@@ -31,4 +31,3 @@
     </dependencies>
 
 </project>
-
